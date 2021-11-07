@@ -30,7 +30,7 @@ int main() {
 		case 7: p7 = 'X'; break;
 		case 8: p8 = 'X'; break;
 		case 9: p9 = 'X'; break;
-		default:cout << "Nepravilan unos"; // ako unos nije broj izmedju 1 i 9 onda ispisuje nepravilan unos i prelazi na sljedeceg igraca (igrac O)
+		default:cout << "Nepravilan unos\n"; // ako unos nije broj izmedju 1 i 9 onda ispisuje nepravilan unos i prelazi na sljedeceg igraca (igrac O)
 			cin.clear();
 			break;
 		}
@@ -88,7 +88,7 @@ int main() {
 		case 7: p7 = 'O'; break;
 		case 8: p8 = 'O'; break;
 		case 9: p9 = 'O'; break;
-		default:cout << "Nepravilan unos"; // ako unos nije broj izmedju 1 i 9 onda ispisuje nepravilan unos i prelazi na sljedeceg igraca (igrac O)
+		default:cout << "Nepravilan unos\n"; // ako unos nije broj izmedju 1 i 9 onda ispisuje nepravilan unos i prelazi na sljedeceg igraca (igrac O)
 			cin.clear();
 			break;
 		}
